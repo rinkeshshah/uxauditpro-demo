@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Larkfield Coffee Roasters (UXAuditPro demo)</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--
+  A DELIBERATELY FLAWED DEMO. Larkfield Coffee Roasters is fictional. This
+  page exists so UXAuditPro's /uxaudit skill has known, fixed UX defects to
+  find and repair. Each defect is listed in README.md. Nothing here is
+  random or time-dependent, so two audits of this page see the same thing.
+-->
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="logo" href="./"><img src="logo.svg" width="120" height="24"></a>
+  <nav class="nav" aria-label="Main">
+    <a href="#beans">Beans</a>
+    <a href="#subscriptions">Subscriptions</a>
+    <a href="#cafes">Cafes</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+<main id="main">
+  <section class="hero">
+    <h1>Small-batch coffee, roasted every Tuesday</h1>
+    <p class="lede">Single-origin beans from farms we visit, shipped within two days of roasting.</p>
+    <img class="hero-img" src="hero.svg" width="640" height="320">
+  </section>
+  <section class="stats">
+    <div><span class="num">12</span><p class="stat-label">Farms we buy from</p></div>
+    <div><span class="num">48h</span><p class="stat-label">Roast to dispatch</p></div>
+    <div><span class="num">3</span><p class="stat-label">Cafes in Larkfield</p></div>
+  </section>
+  <section id="beans" class="beans">
+    <h2>This week's beans</h2>
+    <ul class="bean-list">
+      <li><a href="#ethiopia">Ethiopia Guji</a></li>
+      <li><a href="#colombia">Colombia Huila</a></li>
+      <li><a href="#kenya">Kenya Nyeri</a></li>
+    </ul>
+  </section>
+</main>
+<footer class="site-footer">
+  <a class="icon" href="#instagram" aria-label="Instagram">IG</a>
+  <a class="icon" href="#email" aria-label="Email">@</a>
+  <p class="demo-note">Demo site with deliberate UX issues, used to test UXAuditPro. Not a real business.</p>
+</footer>
+</body>
+</html>
