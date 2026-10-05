@@ -7,7 +7,7 @@ A fictional one-page site with known UX defects, used to test UXAuditPro's
 re-audit, compare. Nothing on the page is random or time-dependent, so two
 audits of an unchanged page see exactly the same elements.
 
-The broken state is tagged `broken`. To reset after a test run:
+The broken state is kept on the `broken` branch. To reset `main` after a test run:
 `git checkout broken -- . && git commit -am "Reset to broken" && git push`.
 
 | # | Defect | Where |
